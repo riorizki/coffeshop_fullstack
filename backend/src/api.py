@@ -80,6 +80,7 @@ def add_drinks(token):
             "success": True,
             "drinks": drinks
         }
+
         return jsonify(result)
 
 
